@@ -1,0 +1,20 @@
+body{
+    background-color: #DED9D9;
+}
+
+hr{
+    margin: 10px 0px 10px 0px;
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+}
+
+#main{
+    width: 75%;
+    text-align: center;
+    background-color: beige;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    margin-top: 300px;
+}
+

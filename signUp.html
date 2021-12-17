@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SIGN UP</title>
+
+        <!-- Required meta tags -->
+
+            <meta charset="utf-8">
+ 
+        <!-- Bootstrap CSS -->
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link href="https://fonts.googleapis.com/css2?family=Rancho&family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="signUp.css">
+
+    </head>
+
+    <body>
+
+        <div>
+            <p class="msg_error"></p>
+        </div>
+        
+        <div id="main" class="container-sm">
+            <div class="container-sm">
+                <h2>Sign Up</h2>
+
+                <br>
+
+                <form action="" method="post" id="form_one">
+                    <div class="mb-1 mt-1">
+                        <input id="firstName" class="form-control-md" type="text" name="firstName" placeholder="First Name" required>
+                    </div>
+
+                    <br>
+                
+                    <div class="mb-1 mt-1">
+                        <input id="lastName" class="form-control-md" type="text" name="lastName" placeholder="Last Name" required>
+                    </div>
+
+                    <br>
+
+                    <div class="mb-1 mt-1">
+                        <input id="email"  class="form-control-md" type="email" name="email" placeholder="Email address" required>
+                    </div>
+
+                    <br>
+
+                    <div class="mb-1 mt-1">
+                        <input id="password" maxlength="8" class="form-control-md" type="password" name="password" placeholder="password" required>
+                    </div>
+
+                    <br>
+
+                    <div class="mb-1 mt-1">
+                        <input id="confirmPassword" maxlength="8" class="form-control-md" type="password" placeholder="confirm password" name="confirmPassword" required>
+                    </div>
+
+                    <br>
+
+                    <button  type="submit" class="btn btn-primary">Join Now</button>
+
+                </form>
+
+                <br>
+
+                <center><hr class="container-sm"></center>
+
+                <br>
+
+                <a href="login.html" class="btn btn-outline-primary">Log In</a>
+
+            </div>
+        </div>
+        <script src="signup.js"></script>
+        <script src="js/bootstrap.bundle.js"></script>
+    </body>
+</html>

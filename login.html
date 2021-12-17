@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>LOG IN</title>
+        <meta charset="utf-8">
+
+        <!-- Bootstrap CSS-->
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link href="https://fonts.googleapis.com/css2?family=Rancho&family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="login.css">
+        
+    </head>
+
+    <body>
+        <div>
+            <p class="msg_error"></p>
+        </div>
+
+        <div class="container-sm" >
+
+            <!--logo-->
+
+            <div id="main" class="container-sm">
+
+                <h2>Log In</h2> 
+
+                <br>
+
+                <form action="courses.html" method="post" id="form_two">
+                    <div class="mb-1 mt-1">
+                        <input class="form-control-md" id="email" type="email" name="email" placeholder="Email address" required>
+                    </div>
+
+                        <br>
+
+                    <div class="mb-1 mt-1">
+                        <input class="form-control-md" id="password" minlength="8" maxlength="10" type="password" name="password" placeholder="Password" required>
+                    </div>
+
+                    <br>
+
+                    <button class="btn btn-primary" type="submit">Log In</button>
+                </form>
+                
+                <br>
+
+                <center><hr class="container-sm"></center>
+
+                <br>
+
+                <a href="signUp.html" class="btn btn-outline-primary">Sign Up</a>
+
+            </div>
+        
+        </div>
+            
+        <script src="js/bootstrap.bundle.js"></script>
+        <script src="login.js"></script>
+    </body>
+</html>
